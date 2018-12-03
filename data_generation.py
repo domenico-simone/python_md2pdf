@@ -30,3 +30,6 @@ g = open('results/parameters.txt', 'w')
 g.write("Subtrees: {}\nTrials: {}\n".format(subtrees, trials))
 
 g.close()
+
+# Download sample image to be Included
+os.system('wget -O results/plot.png https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Oldfaithful3.png/320px-Oldfaithful3.png')
